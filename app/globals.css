@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-noir text-ivory font-sans antialiased;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.glass-card {
+  @apply bg-white/5 border border-white/10 backdrop-blur-xl;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.lux-divider {
+  background: linear-gradient(90deg, transparent, rgba(214,185,124,0.6), transparent);
+  height: 1px;
+}
